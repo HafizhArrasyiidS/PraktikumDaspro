@@ -6,14 +6,15 @@ public class ifCetakKRS10 {
         System.out.println("--- Cetak KRS SIAKAD ---");
         System.out.println("Apakah UKT sudah lunas? (true/false): ");
         boolean uktLunas = sc.nextBoolean();
+        String ukt = uktLunas ? "Pembayaran UKT terverifikasi" : "Registrasi ditolak" ;
+        System.out.println(ukt);
 
-        if(uktLunas){
-            System.out.println("Pembayaran UKT terverifikasi");
-            System.out.println("Silakan cetak KRS dan minta tanda tangan DPA");
-        } else {
-            System.out.println("Pembayaran UKT belum terverifikasi");
-            System.out.println("Silakan selesaikan pembayaran UKT terlebih dahulu");
-        }
-
+        // if(uktLunas){
+        //     System.out.println("Pembayaran UKT terverifikasi");
+        //     System.out.println("Silakan cetak KRS dan minta tanda tangan DPA");
+        // } else {
+        //     System.out.println("Pembayaran UKT belum terverifikasi");
+        //     System.out.println("Silakan selesaikan pembayaran UKT terlebih dahulu");
+        // }
     }
 }
